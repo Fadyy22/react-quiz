@@ -1,5 +1,3 @@
-import React from 'react';
-
 function NextQuestion({ dispatch, answer, index, numQuestions }) {
   if (answer === null) return null;
   console.log(index, numQuestions);
